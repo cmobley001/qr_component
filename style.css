@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #007bff;      /* Blue */
+    --secondary-color: #6c757d;  /* Gray */
+    --accent-color: #dc3545;     /* Red */
+    --background-color: #ffffff; /* White */
+    --text-color: #212529;       /* Dark Gray */
+    --background-color-light: #f8f9fa; /* Light Gray */
+  }  
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color-light);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 450px;
+    padding: 24px;
+    font-family: 'roboto', sans-serif;
+    border-radius: 10px;
+    background-color: var(--background-color);
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+.img-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.content {
+text-align: center;
+color: var(--text-color);
+}
+.content h1 {
+    font-size: 24px;
+}
